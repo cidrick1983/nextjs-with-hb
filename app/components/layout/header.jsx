@@ -1,5 +1,4 @@
-import ContactButton from '@/app/ui/ContactButton'
-import NavLink from '@/app/ui/NavLink'
+import NavLink from '@/app/components/ui/NavLink'
 
 function Header() {
   return (
@@ -12,7 +11,9 @@ function Header() {
           <li>
             <NavLink href='/about'>About</NavLink>
           </li>
-          <ContactButton />
+          <li>
+            <NavLink href='/posts'>Blog</NavLink>
+          </li>
         </ul>
       </nav>
     </header>
